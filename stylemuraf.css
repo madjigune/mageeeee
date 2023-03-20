@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+    body{
+        margin: 0 auto;
+       max-width: 140rem;
+        background-color: chocolate;
+        font-size: 20px;
+     
+    }
+    li{
+        margin: 0 10px;
+      
+    }
+    header{
+        display:flex;
+        justify-content: space-between;
+        background-color: #1f0202;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    div.right a{
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+    }
+    .container{
+        text-align: center;
+    }
+    div.left{
+        font-size: 20px;
+        padding: 20px;
+    }
+     
+     
+    div-left i{
+        font-size: 20px;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px;
+    }
+    nav{
+        background-color: #ffffff;
+        display: flex;
+       justify-content: center;
+        padding: 20px;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        margin-left: 100px;
+        padding: 20px;
+    }
+    nav a{
+        color: #080808;
+        text-decoration: none;
+        padding-right: 30px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    nav i{
+        color: #080808;
+        font-weight: bold;
+        padding-right: 30px;
+        font-size: 30px;
+        }
+     
+     
+    h1{
+        text-align: center;
+    }
+    label{
+        margin-top: 10px;
+        display: block;
+    }
+    main{
+        text-align: center;
+    }
+    label{
+        display: block;
+        text-transform: capitalize;
+        box-shadow: 100px;
+        font-size: 20px;
+    }
+    input[type="submit"]{
+        margin-left: 5px;
+        cursor: pointer;
+        margin-top: 6px;
+        transition: .3s;
+        background: rgb(255, 255, 255,0.7);
+    }
+    input{
+        height: 45px;
+        width: 30%;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        padding: 0 0 0 45px;
+        background: rgba(255, 255, 255,0.1);
+    }
+    textarea{
+        height: 45px;
+        width: 30%;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        padding: 0 0 0 45px;
+        background: rgba(255, 255, 255,0.1);
+    }
+    .dmn{
+        height: 500px;
+    }
+    .bouton{
+        background-color: bisque;
+        border: none;
+        color: black;
+        padding: 15px;
+        display: inline-block;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-left: 550px;
+        margin-top: 4px;
+    }
+    

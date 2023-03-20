@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: century;
+}
+#principale{
+    max-width: 140rem;
+    margin: 0 auto;}
+#entete{
+    height: 50px;
+    width: 100%;
+    color: floralwhite;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+#contenu{
+    background-image: url(./Colosseo_2020.jpg);
+    margin-top: -1.5%;
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+h3{
+    margin-top: 20px;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+p{
+    font-size: 20px;
+    text-transform:xx-large;
+   color: black;
+}
+table{
+    text-align: center;
+    width: 70%;
+    padding: 20px;
+    margin: 20px;
+    background-image: url(./images.jpeg);
+    position: absolute;
+    color:rgb(149, 58, 2);
+    text-transform: capitalize;
+}
+.anm{
+    animation:scrolltxt 25s infinite;
+}
+@keyframes scrolltxt{
+    0%{
+        transform: translate(100%,0);
+    }
+    100%{
+        transform: translate(-100%,0);
+    }
+}
+ 

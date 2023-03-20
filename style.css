@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: century;
+}
+header{  
+    background-image:url(./forest-7670068_1280.webp);
+    height: 1500px;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 40px;
+}
+ul li a{
+   text-decoration: none;
+   color: gray;
+   padding: 10px 20px;
+   text-transform: uppercase;
+   border: 1px solid transparent;
+   margin: 10px;
+}
+ul li a:hover{
+    background: white;
+    color: black;
+}
+#principale{
+    max-width: 140rem;
+    margin: 0 auto;
+}
+h1{
+    position: absolute;
+    color: midnightblue;
+    font-size: 40px;
+    margin-top: 15%;
+}
+.txt{
+    animation:scrolltxt 15s linear infinite;
+}
+@keyframes scrolltxt{
+    0%{
+        transform: translate(100%,0);
+    }
+    100%{
+        transform: translate(-100%,0);
+    }
+}
+.ph{
+    padding-top: 25%;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+.img{
+    height: 250px;
+}
+img{
+    margin: 10px;
+    margin-top: 30px;
+}
+p{
+    color:whitesmoke;
+    text-decoration: underline;
+    size: 10px;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+.rows::after{
+    content: "";
+    display: table;
+    clear: both;
+}
