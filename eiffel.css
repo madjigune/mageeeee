@@ -57,7 +57,9 @@ main{
     margin-top: 10px;
     text-align: center;
     color:royalblue;
-    background-color:cornflowerblue;
+    background-color: pink;
+    border-radius: 50px;
+    border-style: hidden;
 }
 label{
     display: block;

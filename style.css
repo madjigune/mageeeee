@@ -6,7 +6,7 @@
 }
 header{  
     background-image:url(./forest-7670068_1280.webp);
-    height: 1500px;
+    height: 1000px;
     background-size: cover;
     background-position: center;
 }
@@ -68,14 +68,25 @@ p{
     text-decoration: underline;
     size: 10px;
 }
-.column{
-    float: left;
-    width: 50%;
-    padding: 2%;
-}
+#lall{
+    display: flex;
+    overflow:hidden;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
 
-.rows::after{
-    content: "";
-    display: table;
-    clear: both;
+}
+.images{
+    display: flex;
+    animation:mesimages 15s linear infinite;
+}
+@keyframes mesimages{
+    0%{
+        transform: translate(100%,0);
+    }
+    
+    100%{
+        transform: translate(-100%,0);
+    }
 }
